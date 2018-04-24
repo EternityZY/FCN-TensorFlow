@@ -1,7 +1,10 @@
 # FCN.tensorflow
 Tensorflow implementation of [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf) (FCNs). 
+
 拷贝于shekkizh的github源码，这里增加了中文代码解析，并成功运行在TF1.4上。
-由于源码学习率为1e-4导致LOSS=3不降，这里修改学习率到1e-6，并更改迭代20000此，增加了单张图片测试代码。
+由于源码学习率为1e-4导致Loss=3不降，这里修改学习率到1e-6，并更改迭代20000此。
+增加了单张图片测试代码。
+
 The implementation is largely based on the reference code provided by the authors of the paper [link](https://github.com/shelhamer/fcn.berkeleyvision.org). The model was applied on the Scene Parsing Challenge dataset provided by MIT [http://sceneparsing.csail.mit.edu/](http://sceneparsing.csail.mit.edu/).
 
 1. [Prerequisites](#prerequisites)
